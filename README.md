@@ -1,6 +1,6 @@
-# UrbanSensingResearch.com
+# UrbanSensingGroup.com
 
-This repository hosts the official website for **Urban Sensing Research**, led by **Dr. Andrews Korah**.
+This repository hosts the official website for **Urban Sensing Group**, led by **Dr. Andrews Korah**.
 
 ## Deployment
 This site is deployed using **GitHub Pages**.
