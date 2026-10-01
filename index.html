@@ -1,212 +1,212 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dr. Andrews Korah - UrbanSensingGroup</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-              
-              <script>
-              tailwind.config = {
-                theme: {
-                  extend: {
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Andrews Korah - UrbanSensingGroup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
                     fontFamily: {
-                      sans: ['Inter', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
                     },
                     colors: {
-                      navy: {
-                        50: '#f0f4f8',
-                        100: '#d9e2ec',
-                        500: '#334e68',
-                        800: '#102a43',
-                        900: '#0a192f',
-                      },
-                      slate: {
-                        accent: '#8892b0',
-                        light: '#ccd6f6',
-                      }
+                        navy: {
+                            50: '#f0f4f8',
+                            100: '#d9e2ec',
+                            500: '#334e68',
+                            800: '#102a43',
+                            900: '#0a192f',
+                        },
+                        slate: {
+                            accent: '#8892b0',
+                            light: '#ccd6f6',
+                        }
                     },
                     animation: {
-                      'fade-in': 'fadeIn 0.4s ease-out forwards',
+                        'fade-in': 'fadeIn 0.4s ease-out forwards',
                     },
                     keyframes: {
-                      fadeIn: {
-                        '0%': { opacity: '0', transform: 'translateY(10px)' },
-                        '100%': { opacity: '1', transform: 'translateY(0)' },
-                      }
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
                     }
-                  }
                 }
-              }
-              </script>
-                <style>
-                body {
-                  display: flex;
-                  flex-direction: column;
-                  min-height: 100vh;
-                  overflow-y: scroll; 
-                }
-              main {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-              }
-              .content-section {
-                flex: 1;
-              }
-              ::-webkit-scrollbar {
-                width: 8px;
-              }
-              ::-webkit-scrollbar-track {
-                background: #f1f1f1; 
-              }
-              ::-webkit-scrollbar-thumb {
-                background: #cbd5e1; 
-                  border-radius: 4px;
-              }
-              ::-webkit-scrollbar-thumb:hover {
-                background: #94a3b8; 
-              }
-              </style>
-                </head>
-                <body class="font-sans text-gray-800 antialiased bg-gray-50 selection:bg-blue-200 selection:text-navy-900">
-                
-                <nav class="sticky top-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-200 transition-all">
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-20">
+            }
+        }
+    </script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-y: scroll; 
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .content-section {
+            flex: 1;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8; 
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50 selection:bg-blue-200 selection:text-navy-900">
+
+    <nav class="sticky top-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-200 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
                 <div class="flex items-center">
-                <button data-target="home" class="nav-link-btn flex items-center gap-3 group focus:outline-none text-left">
-                <div class="w-10 h-10 bg-navy-900 rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:bg-blue-700 transition-colors shadow-sm">
-                AK
-              </div>
-                <div>
-                <span class="block font-extrabold text-navy-900 text-2xl leading-tight group-hover:text-blue-700 transition-colors tracking-tight uppercase">URBANSENSINGRESEARCH</span>
-                </div>
-                </button>
+                    <button data-target="home" class="nav-link-btn flex items-center gap-3 group focus:outline-none text-left">
+                        <div class="w-10 h-10 bg-navy-900 rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:bg-blue-700 transition-colors shadow-sm">
+                            AK
+                        </div>
+                        <div>
+                            <span class="block font-extrabold text-navy-900 text-2xl leading-tight group-hover:text-blue-700 transition-colors tracking-tight uppercase">URBANSENSINGRESEARCH</span>
+                        </div>
+                    </button>
                 </div>
                 
                 <div class="hidden md:flex items-center space-x-1 lg:space-x-2">
-                <button data-target="home" class="nav-link px-3 py-2 rounded-md text-sm font-semibold transition-all text-blue-600 bg-blue-50">Home</button>
-                <button data-target="people" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">People</button>
-                <button data-target="research" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">Research</button>
-                <button data-target="publications" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">Publications</button>
-                <button data-target="resources" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">Resources</button>
-                <button data-target="contact" class="nav-link px-4 py-2 ml-2 rounded-md bg-navy-900 text-white text-sm font-medium hover:bg-blue-800 transition-all shadow-md">Contact</button>
+                    <button data-target="home" class="nav-link px-3 py-2 rounded-md text-sm font-semibold transition-all text-blue-600 bg-blue-50">Home</button>
+                    <button data-target="people" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">People</button>
+                    <button data-target="research" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">Research</button>
+                    <button data-target="publications" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">Publications</button>
+                    <button data-target="resources" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-navy-900 hover:bg-gray-100 transition-all">Resources</button>
+                    <button data-target="contact" class="nav-link px-4 py-2 ml-2 rounded-md bg-navy-900 text-white text-sm font-medium hover:bg-blue-800 transition-all shadow-md">Contact</button>
                 </div>
-                
+
                 <div class="flex items-center md:hidden">
-                <button id="mobile-menu-btn" class="text-gray-600 hover:text-navy-900 focus:outline-none p-2 rounded-md bg-gray-50 hover:bg-gray-100 transition-colors">
-                <i class="fas fa-bars text-xl w-6"></i>
-                </button>
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-navy-900 focus:outline-none p-2 rounded-md bg-gray-50 hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-bars text-xl w-6"></i>
+                    </button>
                 </div>
-                </div>
-                </div>
-                
-                <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full z-40">
-                <div class="px-4 pt-2 pb-6 space-y-1">
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full z-40">
+            <div class="px-4 pt-2 pb-6 space-y-1">
                 <button data-target="home" class="mobile-nav-link w-full text-left block px-4 py-3 text-base font-medium text-blue-600 bg-blue-50 rounded-lg">Home</button>
                 <button data-target="people" class="mobile-nav-link w-full text-left block px-4 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-lg">People</button>
                 <button data-target="research" class="mobile-nav-link w-full text-left block px-4 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-lg">Research</button>
                 <button data-target="publications" class="mobile-nav-link w-full text-left block px-4 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-lg">Publications</button>
                 <button data-target="resources" class="mobile-nav-link w-full text-left block px-4 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-lg">Resources</button>
                 <button data-target="contact" class="mobile-nav-link w-full text-left block px-4 py-3 text-base font-medium text-white bg-navy-900 hover:bg-blue-800 rounded-lg mt-3 shadow-md">Contact</button>
-                </div>
-                </div>
-                </nav>
-                
-                <main class="relative w-full">
-                
-                <section id="home" class="content-section py-20 flex items-center justify-center animate-fade-in min-h-[calc(100vh-80px)] relative group overflow-hidden">
-                <!-- Background Image -->
-                <img id="homeBgImage" src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1920&q=80" alt="Home Background" class="absolute inset-0 w-full h-full object-cover z-0">
-                <!-- Frosted White Overlay -->
-                <div class="absolute inset-0 z-0 bg-white/85 backdrop-blur-[2px]"></div>
-                
-                <!-- Hidden Input & Hover Camera Button for Background Update -->
-                <input type="file" id="homeBgInput" accept="image/*" class="hidden">
-                <button onclick="document.getElementById('homeBgInput').click()" class="absolute top-6 right-6 z-20 bg-white/90 hover:bg-white text-navy-900 w-12 h-12 flex items-center justify-center rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 focus:outline-none hover:scale-105" title="Change Background Image">
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative w-full">
+        
+        <section id="home" class="content-section py-20 flex items-center justify-center animate-fade-in min-h-[calc(100vh-80px)] relative group overflow-hidden">
+            <!-- Background Image -->
+            <img id="homeBgImage" src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1920&q=80" alt="Home Background" class="absolute inset-0 w-full h-full object-cover z-0">
+            <!-- Frosted White Overlay -->
+            <div class="absolute inset-0 z-0 bg-white/85 backdrop-blur-[2px]"></div>
+            
+            <!-- Hidden Input & Hover Camera Button for Background Update -->
+            <input type="file" id="homeBgInput" accept="image/*" class="hidden">
+            <button onclick="document.getElementById('homeBgInput').click()" class="absolute top-6 right-6 z-20 bg-white/90 hover:bg-white text-navy-900 w-12 h-12 flex items-center justify-center rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 focus:outline-none hover:scale-105" title="Change Background Image">
                 <i class="fas fa-camera text-xl"></i>
-                </button>
-                
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            </button>
+            
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
                 <div class="text-center max-w-4xl mx-auto">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-100 text-blue-800 text-sm font-bold mb-8 shadow-sm border border-blue-200">
-                <i class="fas fa-globe-americas text-blue-600"></i> Postdoctoral Research Associate & Consultant
-              </div>
-                <h1 class="text-4xl tracking-tight font-extrabold text-navy-900 sm:text-5xl md:text-6xl mb-6">
-                Mapping <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500">Urban Dynamics</span>, Climate Indicators, & Environmental Change.
-              </h1>
-                <p class="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-xl font-medium leading-relaxed">
-                Leveraging satellite Earth observations, machine learning, and GIS to decode the complexities of expanding cities and their environmental footprints.
-              </p>
-                <div class="mt-8 flex items-center justify-center text-sm text-gray-600 font-bold">
-                <div class="flex items-center gap-2">
-                <i class="fas fa-university text-navy-800"></i> University of Oklahoma
-              </div>
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-100 text-blue-800 text-sm font-bold mb-8 shadow-sm border border-blue-200">
+                        <i class="fas fa-globe-americas text-blue-600"></i> Postdoctoral Research Associate & Consultant
+                    </div>
+                    <h1 class="text-4xl tracking-tight font-extrabold text-navy-900 sm:text-5xl md:text-6xl mb-6">
+                        Mapping <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500">Urban Dynamics</span>, Climate Indicators, & Environmental Change.
+                    </h1>
+                    <p class="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-xl font-medium leading-relaxed">
+                        Leveraging satellite Earth observations, machine learning, and GIS to decode the complexities of expanding cities and their environmental footprints.
+                    </p>
+                    <div class="mt-8 flex items-center justify-center text-sm text-gray-600 font-bold">
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-university text-navy-800"></i> University of Oklahoma
+                        </div>
+                    </div>
+                    <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                        <button data-target="resources" class="nav-link-btn inline-flex items-center justify-center px-8 py-3.5 border border-transparent text-base font-medium rounded-lg text-white bg-navy-900 hover:bg-blue-800 md:py-4 md:text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 group">
+                            Explore Dashboards <i class="fas fa-chart-line ml-3 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                        <button data-target="research" class="nav-link-btn inline-flex items-center justify-center px-8 py-3.5 border-2 border-navy-900 text-base font-medium rounded-lg text-navy-900 bg-white/90 hover:bg-white md:py-4 md:text-lg transition-all shadow-sm hover:-translate-y-0.5">
+                            View Research
+                        </button>
+                    </div>
                 </div>
-                <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <button data-target="resources" class="nav-link-btn inline-flex items-center justify-center px-8 py-3.5 border border-transparent text-base font-medium rounded-lg text-white bg-navy-900 hover:bg-blue-800 md:py-4 md:text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 group">
-                Explore Dashboards <i class="fas fa-chart-line ml-3 group-hover:translate-x-1 transition-transform"></i>
-                </button>
-                <button data-target="research" class="nav-link-btn inline-flex items-center justify-center px-8 py-3.5 border-2 border-navy-900 text-base font-medium rounded-lg text-navy-900 bg-white/90 hover:bg-white md:py-4 md:text-lg transition-all shadow-sm hover:-translate-y-0.5">
-                View Research
-              </button>
-                </div>
-                </div>
-                </div>
-                </section>
-                
-                <section id="people" class="content-section hidden py-16 animate-fade-in bg-white min-h-[calc(100vh-80px)]">
-                <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            </div>
+        </section>
+
+        <section id="people" class="content-section hidden py-16 animate-fade-in bg-white min-h-[calc(100vh-80px)]">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-12 border-b border-gray-100 pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
-                <div>
-                <h2 class="text-sm text-blue-600 font-bold tracking-widest uppercase">Team & Network</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-navy-900 sm:text-4xl">
-                People
-              </p>
+                    <div>
+                        <h2 class="text-sm text-blue-600 font-bold tracking-widest uppercase">Team & Network</h2>
+                        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-navy-900 sm:text-4xl">
+                            People
+                        </p>
+                    </div>
                 </div>
-                </div>
-                
+
                 <div class="bg-white rounded-3xl shadow-md border border-gray-100 overflow-hidden">
-                <div class="flex flex-col md:flex-row">
-                <div class="w-full md:w-1/3 shrink-0 bg-white p-8 md:p-10 border-b md:border-b-0 md:border-r border-gray-100 flex flex-col items-center justify-start">
-                <input type="file" id="profilePicInput" accept="image/*" class="hidden">
-                <input type="file" id="cvInput" accept=".pdf,.doc,.docx" class="hidden">
-                
-                <div class="relative group cursor-pointer mb-8 w-full max-w-[280px]" onclick="document.getElementById('profilePicInput').click()" title="Click to upload a new profile picture">
-                <img id="profileImage" src="image_a3c6fc.png" alt="Dr. Andrews Korah" class="w-full aspect-[4/5] rounded-2xl shadow-lg object-cover border border-gray-50 transition-all group-hover:brightness-75" onerror="this.src='https://placehold.co/400x500/102a43/ffffff?text=Upload+Photo'">
-                <div class="absolute inset-0 bg-navy-900/60 hidden group-hover:flex flex-col items-center justify-center rounded-2xl transition-all border-2 border-dashed border-white/50">
-                <i class="fas fa-camera text-3xl text-white mb-2"></i>
-                <span class="text-white font-medium text-sm">Upload Photo</span>
-                </div>
-                </div>
-                
-                <div class="flex gap-2 w-full max-w-[280px] justify-center">
-                <a id="cvDownloadBtn" href="#" download="Dr_Andrews_Korah_CV.pdf" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 border border-gray-300 shadow-sm text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 hover:text-navy-900 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-navy-900">
-                <i class="far fa-file-alt text-gray-500"></i> Download CV
-              </a>
-                <button onclick="document.getElementById('cvInput').click()" class="px-3 py-2.5 border border-gray-300 shadow-sm text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 hover:text-blue-600 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600" title="Upload new CV">
-                <i class="fas fa-upload"></i>
-                </button>
-                </div>
-                <p id="cvStatusText" class="text-xs text-blue-600 mt-3 hidden text-center w-full max-w-[280px] font-medium"></p>
-                </div>
-                
-                <div class="p-8 md:p-10 lg:p-12 flex-1 bg-gray-50/50">
-                <div class="flex flex-col h-full justify-center">
-                <h3 class="text-3xl font-extrabold text-navy-900 mb-2">Dr. Andrews Korah</h3>
-                <p class="text-blue-600 font-medium text-lg mb-6 flex items-center gap-2">
-                <i class="fas fa-university opacity-75"></i> Postdoctoral Research Associate, University of Oklahoma
-              </p>
-                
-                <div class="space-y-4 text-gray-600 leading-relaxed font-light text-base md:text-lg mb-8">
-                <p>
-                Dr. Andrews Korah holds a <strong class="font-semibold text-navy-900">Ph.D. in Geography and Environmental Sustainability</strong> from the University of Oklahoma and an <strong class="font-semibold text-navy-900">M.A. in Geography</strong> from Miami University.
-              </p>
-                <p>
-                As a highly skilled spatial data scientist, his expertise encompasses R, Python, and Google Earth Engine. He leverages these computational tools to map, model, and dissect complex urban environments and microclimates. Beyond his academic research, Dr. Korah brings extensive applied experience, serving as a consultant for the <strong class="font-semibold text-navy-900">World Bank Group's City Resilience Program</strong>, helping cities build resilience against climate-induced hazards and extreme heat events.
+                    <div class="flex flex-col md:flex-row">
+                        <div class="w-full md:w-1/3 shrink-0 bg-white p-8 md:p-10 border-b md:border-b-0 md:border-r border-gray-100 flex flex-col items-center justify-start">
+                            <input type="file" id="profilePicInput" accept="image/*" class="hidden">
+                            <input type="file" id="cvInput" accept=".pdf,.doc,.docx" class="hidden">
+                            
+                            <div class="relative group cursor-pointer mb-8 w-full max-w-[280px]" onclick="document.getElementById('profilePicInput').click()" title="Click to upload a new profile picture">
+                                <img id="profileImage" src="image_a3c6fc.png" alt="Dr. Andrews Korah" class="w-full aspect-[4/5] rounded-2xl shadow-lg object-cover border border-gray-50 transition-all group-hover:brightness-75" onerror="this.src='https://placehold.co/400x500/102a43/ffffff?text=Upload+Photo'">
+                                <div class="absolute inset-0 bg-navy-900/60 hidden group-hover:flex flex-col items-center justify-center rounded-2xl transition-all border-2 border-dashed border-white/50">
+                                    <i class="fas fa-camera text-3xl text-white mb-2"></i>
+                                    <span class="text-white font-medium text-sm">Upload Photo</span>
+                                </div>
+                            </div>
+                            
+                            <div class="flex gap-2 w-full max-w-[280px] justify-center">
+                                <a id="cvDownloadBtn" href="#" download="Dr_Andrews_Korah_CV.pdf" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 border border-gray-300 shadow-sm text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 hover:text-navy-900 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-navy-900">
+                                    <i class="far fa-file-alt text-gray-500"></i> Download CV
+                                </a>
+                                <button onclick="document.getElementById('cvInput').click()" class="px-3 py-2.5 border border-gray-300 shadow-sm text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 hover:text-blue-600 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600" title="Upload new CV">
+                                    <i class="fas fa-upload"></i>
+                                </button>
+                            </div>
+                            <p id="cvStatusText" class="text-xs text-blue-600 mt-3 hidden text-center w-full max-w-[280px] font-medium"></p>
+                        </div>
+                        
+                        <div class="p-8 md:p-10 lg:p-12 flex-1 bg-gray-50/50">
+                            <div class="flex flex-col h-full justify-center">
+                                <h3 class="text-3xl font-extrabold text-navy-900 mb-2">Dr. Andrews Korah</h3>
+                                <p class="text-blue-600 font-medium text-lg mb-6 flex items-center gap-2">
+                                    <i class="fas fa-university opacity-75"></i> Postdoctoral Research Associate, University of Oklahoma
+                                </p>
+                                
+                                <div class="space-y-4 text-gray-600 leading-relaxed font-light text-base md:text-lg mb-8">
+                                    <p>
+                                        Dr. Andrews Korah holds a <strong class="font-semibold text-navy-900">Ph.D. in Geography and Environmental Sustainability</strong> from the University of Oklahoma and an <strong class="font-semibold text-navy-900">M.A. in Geography</strong> from Miami University.
+                                    </p>
+                                    <p>
+                                        As a highly skilled spatial data scientist, his expertise encompasses R, Python, and Google Earth Engine. He leverages these computational tools to map, model, and dissect complex urban environments and microclimates. Beyond his academic research, Dr. Korah brings extensive applied experience, serving as a consultant for the <strong class="font-semibold text-navy-900">World Bank Group's City Resilience Program</strong>, helping cities build resilience against climate-induced hazards and extreme heat events.
                                     </p>
                                     <p>
                                         In addition to his research and consultancy, Dr. Korah is dedicated to mentoring the next generation of spatial data scientists. At the University of Oklahoma, his teaching portfolio spans both graduate and undergraduate levels, including courses such as <strong class="font-semibold text-navy-900">GIS 5453: Advanced GIS and Spatial Analysis</strong>, <strong class="font-semibold text-navy-900">GEOG 1114: Physical Geography</strong>, and <strong class="font-semibold text-navy-900">GEOG 2603: World Regional Geography</strong>.
@@ -219,6 +219,9 @@
                                     </a>
                                     <a href="https://www.linkedin.com/in/andrews-korah/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 bg-white border border-gray-200 text-gray-700 hover:text-blue-600 hover:border-blue-300 text-sm rounded-lg font-medium shadow-sm flex items-center gap-2 transition-all">
                                         <i class="fab fa-linkedin-in text-blue-600"></i> LinkedIn
+                                    </a>
+                                    <a href="https://orcid.org/0000-0002-2663-7857" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 bg-white border border-gray-200 text-gray-700 hover:text-emerald-600 hover:border-emerald-300 text-sm rounded-lg font-medium shadow-sm flex items-center gap-2 transition-all">
+                                        <i class="fab fa-orcid text-emerald-600"></i> ORCID
                                     </a>
                                     <a href="https://ecograph.net/korah/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 bg-white border border-gray-200 text-gray-700 hover:text-teal-600 hover:border-teal-300 text-sm rounded-lg font-medium shadow-sm flex items-center gap-2 transition-all">
                                         <i class="fas fa-flask text-teal-600"></i> Ecograph Lab
@@ -545,400 +548,401 @@
                                 <a href="https://doi.org/10.1016/j.scs.2024.105381" target="_blank" rel="noopener noreferrer" class="group/link block">
                                     <p class="text-gray-800 text-lg leading-snug font-medium mb-2 group-hover/link:text-blue-700 group-hover/link:underline transition-colors flex items-start gap-2">
                                         Smaller cities have large impacts on West Africa's expanding urban system.
-              <i class="fas fa-external-link-alt text-sm text-blue-400 mt-1 opacity-0 group-hover/link:opacity-100 transition-opacity"></i>
-                </p>
-                </a>
-                <p class="text-sm text-gray-600">
-                <span class="font-bold text-navy-900 border-b border-navy-900">Korah, A.</span>, & Wimberly, M. C. (106, 105381).
-              </p>
+                                        <i class="fas fa-external-link-alt text-sm text-blue-400 mt-1 opacity-0 group-hover/link:opacity-100 transition-opacity"></i>
+                                    </p>
+                                </a>
+                                <p class="text-sm text-gray-600">
+                                    <span class="font-bold text-navy-900 border-b border-navy-900">Korah, A.</span>, & Wimberly, M. C. (106, 105381).
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Pub 5 -->
+                        <div class="p-6 sm:p-8 hover:bg-slate-50 transition-colors flex gap-5 group">
+                            <div class="text-blue-300 mt-1 hidden sm:block group-hover:text-blue-600 transition-colors"><i class="fas fa-book-open text-2xl"></i></div>
+                            <div>
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="px-2.5 py-0.5 bg-gray-100 text-gray-800 text-xs font-bold rounded">2024</span>
+                                    <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Cities</span>
+                                </div>
+                                <a href="https://doi.org/10.1016/j.cities.2024.104734" target="_blank" rel="noopener noreferrer" class="group/link block">
+                                    <p class="text-gray-800 text-lg leading-snug font-medium mb-2 group-hover/link:text-blue-700 group-hover/link:underline transition-colors flex items-start gap-2">
+                                        Understanding urban growth modeling in Africa: Dynamics, drivers, and challenges.
+                                        <i class="fas fa-external-link-alt text-sm text-blue-400 mt-1 opacity-0 group-hover/link:opacity-100 transition-opacity"></i>
+                                    </p>
+                                </a>
+                                <p class="text-sm text-gray-600">
+                                    <span class="font-bold text-navy-900 border-b border-navy-900">Korah, A.</span>, Koch, J. A. M., & Wimberly, M. C. (146, 104734).
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                </div>
-                
-                <!-- Pub 5 -->
-                <div class="p-6 sm:p-8 hover:bg-slate-50 transition-colors flex gap-5 group">
-                <div class="text-blue-300 mt-1 hidden sm:block group-hover:text-blue-600 transition-colors"><i class="fas fa-book-open text-2xl"></i></div>
-                <div>
-                <div class="flex items-center gap-2 mb-2">
-                <span class="px-2.5 py-0.5 bg-gray-100 text-gray-800 text-xs font-bold rounded">2024</span>
-                <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Cities</span>
-                </div>
-                <a href="https://doi.org/10.1016/j.cities.2024.104734" target="_blank" rel="noopener noreferrer" class="group/link block">
-                <p class="text-gray-800 text-lg leading-snug font-medium mb-2 group-hover/link:text-blue-700 group-hover/link:underline transition-colors flex items-start gap-2">
-                Understanding urban growth modeling in Africa: Dynamics, drivers, and challenges.
-              <i class="fas fa-external-link-alt text-sm text-blue-400 mt-1 opacity-0 group-hover/link:opacity-100 transition-opacity"></i>
-                </p>
-                </a>
-                <p class="text-sm text-gray-600">
-                <span class="font-bold text-navy-900 border-b border-navy-900">Korah, A.</span>, Koch, J. A. M., & Wimberly, M. C. (146, 104734).
-              </p>
-                </div>
-                </div>
-                
-                </div>
-                </div>
-                </div>
-                </section>
-                
-                <section id="resources" class="content-section hidden py-16 animate-fade-in bg-gray-50 min-h-[calc(100vh-80px)]">
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            </div>
+        </section>
+
+        <section id="resources" class="content-section hidden py-16 animate-fade-in bg-gray-50 min-h-[calc(100vh-80px)]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-12 text-center max-w-3xl mx-auto">
-                <h2 class="text-sm text-teal-600 font-bold tracking-widest uppercase">Digital Products & Tools</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-navy-900 sm:text-4xl">
-                Interactive Dashboards & Datasets
-              </p>
-                <p class="mt-4 text-gray-600">Translating complex climate indicators and spatial data for municipal decision-makers and researchers.</p>
+                    <h2 class="text-sm text-teal-600 font-bold tracking-widest uppercase">Digital Products & Tools</h2>
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-navy-900 sm:text-4xl">
+                        Interactive Dashboards & Datasets
+                    </p>
+                    <p class="mt-4 text-gray-600">Translating complex climate indicators and spatial data for municipal decision-makers and researchers.</p>
                 </div>
-                
+
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-                
-                <!-- Urban Urgencies Dashboard -->
-                <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-lg border border-gray-100 relative overflow-hidden group flex flex-col h-full hover:shadow-2xl transition-all duration-300">
-                <div class="absolute -right-10 -top-10 w-40 h-40 bg-gradient-to-br from-orange-100 to-red-50 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-700 ease-in-out"></div>
-                <div class="relative z-10 flex-1">
-                <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-sm">
-                <i class="fas fa-temperature-high"></i>
+                    
+                    <!-- Urban Urgencies Dashboard -->
+                    <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-lg border border-gray-100 relative overflow-hidden group flex flex-col h-full hover:shadow-2xl transition-all duration-300">
+                        <div class="absolute -right-10 -top-10 w-40 h-40 bg-gradient-to-br from-orange-100 to-red-50 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-700 ease-in-out"></div>
+                        <div class="relative z-10 flex-1">
+                            <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-sm">
+                                <i class="fas fa-temperature-high"></i>
+                            </div>
+                            <span class="inline-block px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-xs font-bold tracking-wider uppercase mb-4">18-Month Project</span>
+                            <h3 class="text-2xl font-bold text-navy-900 mb-4 leading-tight">Urban Urgencies Dashboard</h3>
+                            <p class="text-gray-600 text-base mb-6 leading-relaxed">
+                                An interactive dashboard developed over an 18-month project delivering open datasets on urban heat. It translates complex climate indicators into actionable insights for municipal decision-makers across four major cities in Ghana.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-8">
+                                <span class="px-2.5 py-1 bg-red-50 text-red-700 text-xs rounded-md font-semibold border border-red-100">Urban Heat</span>
+                                <span class="px-2.5 py-1 bg-gray-50 text-gray-700 text-xs rounded-md font-semibold border border-gray-200">Policy Translation</span>
+                                <span class="px-2.5 py-1 bg-yellow-50 text-yellow-700 text-xs rounded-md font-semibold border border-yellow-100">Ghana Focus</span>
+                            </div>
+                        </div>
+                        <div class="relative z-10 mt-auto">
+                            <button onclick="showModal('Application URL currently restricted to project stakeholders. Open access coming soon.')" class="w-full inline-flex items-center justify-center px-6 py-3.5 bg-orange-600 text-white font-bold rounded-xl shadow-md hover:bg-orange-700 transition-colors">
+                                Request Access <i class="fas fa-lock ml-2 text-sm"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- West African Impervious Surface Dashboard -->
+                    <div class="bg-gradient-to-br from-navy-900 to-blue-900 rounded-3xl p-8 sm:p-10 shadow-lg relative overflow-hidden group flex flex-col h-full hover:shadow-2xl transition-all duration-300">
+                        <i class="fas fa-map-marked-alt absolute -bottom-10 -right-10 text-9xl text-white/5 group-hover:scale-110 group-hover:rotate-6 transition-all duration-700 ease-in-out"></i>
+                        <div class="relative z-10 flex-1">
+                            <div class="w-14 h-14 bg-blue-800 text-blue-300 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-inner border border-blue-700">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <span class="inline-block px-3 py-1 bg-blue-500/30 text-blue-200 rounded-full text-xs font-bold tracking-wider uppercase mb-4 border border-blue-400/30">Google Earth Engine</span>
+                            <h3 class="text-2xl font-bold text-white mb-4 leading-tight">West African Impervious Surface Dashboard</h3>
+                            <p class="text-blue-100 text-base mb-6 leading-relaxed font-light">
+                                High-resolution (30m) regionally calibrated datasets tracking annual urban expansion from 2001–2020. This comprehensive tool covers Ghana, Togo, Benin, and Nigeria, providing critical historical footprint data.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-8">
+                                <span class="px-2.5 py-1 bg-navy-800 text-blue-300 text-xs rounded-md font-semibold border border-navy-600">30m Resolution</span>
+                                <span class="px-2.5 py-1 bg-navy-800 text-blue-300 text-xs rounded-md font-semibold border border-navy-600">Time-Series (2001-2020)</span>
+                            </div>
+                        </div>
+                        <div class="relative z-10 mt-auto">
+                            <a href="https://ee-kora0003.projects.earthengine.app/view/wadisc-dashboard" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center px-6 py-3.5 bg-white text-navy-900 font-bold rounded-xl shadow-md hover:bg-gray-100 transition-colors">
+                                Launch Dashboard <i class="fas fa-external-link-alt ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
-                <span class="inline-block px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-xs font-bold tracking-wider uppercase mb-4">18-Month Project</span>
-                <h3 class="text-2xl font-bold text-navy-900 mb-4 leading-tight">Urban Urgencies Dashboard</h3>
-                <p class="text-gray-600 text-base mb-6 leading-relaxed">
-                An interactive dashboard developed over an 18-month project delivering open datasets on urban heat. It translates complex climate indicators into actionable insights for municipal decision-makers across four major cities in Ghana.
-              </p>
-                <div class="flex flex-wrap gap-2 mb-8">
-                <span class="px-2.5 py-1 bg-red-50 text-red-700 text-xs rounded-md font-semibold border border-red-100">Urban Heat</span>
-                <span class="px-2.5 py-1 bg-gray-50 text-gray-700 text-xs rounded-md font-semibold border border-gray-200">Policy Translation</span>
-                <span class="px-2.5 py-1 bg-yellow-50 text-yellow-700 text-xs rounded-md font-semibold border border-yellow-100">Ghana Focus</span>
-                </div>
-                </div>
-                <div class="relative z-10 mt-auto">
-                <button onclick="showModal('Application URL currently restricted to project stakeholders. Open access coming soon.')" class="w-full inline-flex items-center justify-center px-6 py-3.5 bg-orange-600 text-white font-bold rounded-xl shadow-md hover:bg-orange-700 transition-colors">
-                Request Access <i class="fas fa-lock ml-2 text-sm"></i>
-                </button>
-                </div>
-                </div>
-                
-                <!-- West African Impervious Surface Dashboard -->
-                <div class="bg-gradient-to-br from-navy-900 to-blue-900 rounded-3xl p-8 sm:p-10 shadow-lg relative overflow-hidden group flex flex-col h-full hover:shadow-2xl transition-all duration-300">
-                <i class="fas fa-map-marked-alt absolute -bottom-10 -right-10 text-9xl text-white/5 group-hover:scale-110 group-hover:rotate-6 transition-all duration-700 ease-in-out"></i>
-                <div class="relative z-10 flex-1">
-                <div class="w-14 h-14 bg-blue-800 text-blue-300 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-inner border border-blue-700">
-                <i class="fas fa-layer-group"></i>
-                </div>
-                <span class="inline-block px-3 py-1 bg-blue-500/30 text-blue-200 rounded-full text-xs font-bold tracking-wider uppercase mb-4 border border-blue-400/30">Google Earth Engine</span>
-                <h3 class="text-2xl font-bold text-white mb-4 leading-tight">West African Impervious Surface Dashboard</h3>
-                <p class="text-blue-100 text-base mb-6 leading-relaxed font-light">
-                High-resolution (30m) regionally calibrated datasets tracking annual urban expansion from 2001–2020. This comprehensive tool covers Ghana, Togo, Benin, and Nigeria, providing critical historical footprint data.
-              </p>
-                <div class="flex flex-wrap gap-2 mb-8">
-                <span class="px-2.5 py-1 bg-navy-800 text-blue-300 text-xs rounded-md font-semibold border border-navy-600">30m Resolution</span>
-                <span class="px-2.5 py-1 bg-navy-800 text-blue-300 text-xs rounded-md font-semibold border border-navy-600">Time-Series (2001-2020)</span>
-                </div>
-                </div>
-                <div class="relative z-10 mt-auto">
-                <a href="https://ee-kora0003.projects.earthengine.app/view/wadisc-dashboard" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center px-6 py-3.5 bg-white text-navy-900 font-bold rounded-xl shadow-md hover:bg-gray-100 transition-colors">
-                Launch Dashboard <i class="fas fa-external-link-alt ml-2 text-sm"></i>
-                </a>
-                </div>
-                </div>
-                
-                </div>
-                </div>
-                </section>
-                
-                <section id="contact" class="content-section hidden py-16 animate-fade-in bg-navy-900 min-h-[calc(100vh-80px)] text-white relative overflow-hidden">
-                <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 30px 30px;"></div>
-                
-                <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            </div>
+        </section>
+
+        <section id="contact" class="content-section hidden py-16 animate-fade-in bg-navy-900 min-h-[calc(100vh-80px)] text-white relative overflow-hidden">
+            <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 30px 30px;"></div>
+            
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div class="text-center mb-16">
-                <h2 class="text-sm text-blue-400 font-bold tracking-widest uppercase">Get in touch</h2>
-                <h2 class="mt-2 text-3xl font-extrabold text-white sm:text-4xl">Contact & Connect</h2>
-                <p class="mt-4 text-lg text-blue-200 font-light">Reach out for collaborations, dataset inquiries, or consulting opportunities.</p>
+                    <h2 class="text-sm text-blue-400 font-bold tracking-widest uppercase">Get in touch</h2>
+                    <h2 class="mt-2 text-3xl font-extrabold text-white sm:text-4xl">Contact & Connect</h2>
+                    <p class="mt-4 text-lg text-blue-200 font-light">Reach out for collaborations, dataset inquiries, or consulting opportunities.</p>
                 </div>
-                
+
                 <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 bg-navy-800/80 backdrop-blur-md p-8 md:p-12 rounded-3xl border border-navy-700 shadow-2xl">
-                
-                <div class="lg:col-span-2">
-                <h3 class="text-2xl font-bold mb-8 text-white">Information</h3>
-                <div class="space-y-8">
-                <div class="flex items-start gap-5">
-                <div class="w-12 h-12 bg-navy-900/50 rounded-xl flex items-center justify-center text-blue-400 shrink-0 border border-navy-600">
-                <i class="fas fa-map-marker-alt text-xl"></i>
+                    
+                    <div class="lg:col-span-2">
+                        <h3 class="text-2xl font-bold mb-8 text-white">Information</h3>
+                        <div class="space-y-8">
+                            <div class="flex items-start gap-5">
+                                <div class="w-12 h-12 bg-navy-900/50 rounded-xl flex items-center justify-center text-blue-400 shrink-0 border border-navy-600">
+                                    <i class="fas fa-map-marker-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-gray-400 font-semibold text-xs uppercase tracking-wider mb-1">Current Location</h4>
+                                    <p class="text-lg font-medium text-white">University of Oklahoma</p>
+                                    <p class="text-gray-300 text-sm mt-1 leading-relaxed">Department of Geography and Environmental Sustainability<br>Norman, OK, United States</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start gap-5">
+                                <div class="w-12 h-12 bg-navy-900/50 rounded-xl flex items-center justify-center text-teal-400 shrink-0 border border-navy-600">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-gray-400 font-semibold text-xs uppercase tracking-wider mb-1">Email</h4>
+                                    <a href="mailto:andrews.korah@ou.edu" class="text-lg font-medium text-white hover:text-teal-300 transition-colors">andrews.korah@ou.edu</a>
+                                </div>
+                            </div>
+
+                            <div class="pt-6 border-t border-navy-700">
+                                <h4 class="text-gray-400 font-semibold text-xs uppercase tracking-wider mb-4">Academic Profiles</h4>
+                                <div class="flex flex-wrap gap-4">
+                                    <a href="https://scholar.google.com/citations?user=OlfWi3EAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-blue-600 hover:-translate-y-1 transition-all" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                                    <a href="https://www.linkedin.com/in/andrews-korah/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-blue-500 hover:-translate-y-1 transition-all" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://orcid.org/0000-0002-2663-7857" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-emerald-600 hover:-translate-y-1 transition-all" title="ORCID"><i class="fab fa-orcid"></i></a>
+                                    <a href="https://ecograph.net/korah/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-teal-600 hover:-translate-y-1 transition-all" title="Ecograph Lab"><i class="fas fa-flask"></i></a>
+                                    <a href="https://github.com/Kora0003" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-gray-700 hover:-translate-y-1 transition-all" title="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-3 lg:pl-8 lg:border-l lg:border-navy-700">
+                        <h3 class="text-2xl font-bold mb-8 text-white">Send a Message</h3>
+                        <form id="contactForm" class="space-y-5" onsubmit="handleFormSubmit(event)">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Name</label>
+                                    <input type="text" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all" placeholder="Dr. Jane Doe">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Email</label>
+                                    <input type="email" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all" placeholder="jane@university.edu">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Subject</label>
+                                <input type="text" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all" placeholder="Research Collaboration">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Message</label>
+                                <textarea rows="4" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all resize-none" placeholder="I am reaching out regarding..."></textarea>
+                            </div>
+                            <button type="submit" id="submitBtn" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-4 rounded-xl transition-colors shadow-lg flex justify-center items-center gap-2">
+                                <span>Send Message</span> <i class="fas fa-paper-plane text-sm"></i>
+                            </button>
+                            <p id="formMessage" class="hidden text-sm text-teal-400 text-center font-medium mt-3"><i class="fas fa-check-circle mr-1"></i> Message simulated successfully.</p>
+                        </form>
+                    </div>
                 </div>
-                <div>
-                <h4 class="text-gray-400 font-semibold text-xs uppercase tracking-wider mb-1">Current Location</h4>
-                <p class="text-lg font-medium text-white">University of Oklahoma</p>
-                <p class="text-gray-300 text-sm mt-1 leading-relaxed">Department of Geography and Environmental Sustainability<br>Norman, OK, United States</p>
-                </div>
-                </div>
-                
-                <div class="flex items-start gap-5">
-                <div class="w-12 h-12 bg-navy-900/50 rounded-xl flex items-center justify-center text-teal-400 shrink-0 border border-navy-600">
-                <i class="fas fa-envelope text-xl"></i>
-                </div>
-                <div>
-                <h4 class="text-gray-400 font-semibold text-xs uppercase tracking-wider mb-1">Email</h4>
-                <a href="mailto:andrews.korah@ou.edu" class="text-lg font-medium text-white hover:text-teal-300 transition-colors">andrews.korah@ou.edu</a>
-                </div>
-                </div>
-                
-                <div class="pt-6 border-t border-navy-700">
-                <h4 class="text-gray-400 font-semibold text-xs uppercase tracking-wider mb-4">Academic Profiles</h4>
-                <div class="flex gap-4">
-                <a href="https://scholar.google.com/citations?user=OlfWi3EAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-blue-600 hover:-translate-y-1 transition-all" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-                <a href="https://www.linkedin.com/in/andrews-korah/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-blue-500 hover:-translate-y-1 transition-all" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://ecograph.net/korah/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-teal-600 hover:-translate-y-1 transition-all" title="Ecograph Lab"><i class="fas fa-flask"></i></a>
-                <a href="https://github.com/Kora0003" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-700 flex items-center justify-center text-white hover:bg-gray-700 hover:-translate-y-1 transition-all" title="GitHub"><i class="fab fa-github"></i></a>
-                </div>
-                </div>
-                </div>
-                </div>
-                
-                <div class="lg:col-span-3 lg:pl-8 lg:border-l lg:border-navy-700">
-                <h3 class="text-2xl font-bold mb-8 text-white">Send a Message</h3>
-                <form id="contactForm" class="space-y-5" onsubmit="handleFormSubmit(event)">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                <div>
-                <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Name</label>
-                <input type="text" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all" placeholder="Dr. Jane Doe">
-                </div>
-                <div>
-                <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Email</label>
-                <input type="email" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all" placeholder="jane@university.edu">
-                </div>
-                </div>
-                <div>
-                <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Subject</label>
-                <input type="text" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all" placeholder="Research Collaboration">
-                </div>
-                <div>
-                <label class="block text-xs font-semibold tracking-wider text-gray-400 uppercase mb-2">Message</label>
-                <textarea rows="4" required class="w-full px-4 py-3 bg-navy-900/50 border border-navy-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none text-white placeholder-gray-500 transition-all resize-none" placeholder="I am reaching out regarding..."></textarea>
-                </div>
-                <button type="submit" id="submitBtn" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-4 rounded-xl transition-colors shadow-lg flex justify-center items-center gap-2">
-                <span>Send Message</span> <i class="fas fa-paper-plane text-sm"></i>
-                </button>
-                <p id="formMessage" class="hidden text-sm text-teal-400 text-center font-medium mt-3"><i class="fas fa-check-circle mr-1"></i> Message simulated successfully.</p>
-                </form>
-                </div>
-                </div>
-                </div>
-                </section>
-                
-                </main>
-                
-                <div id="resourceModal" class="hidden fixed inset-0 z-[100] bg-navy-900/80 backdrop-blur-sm flex items-center justify-center p-4">
-                <div class="bg-white rounded-2xl max-w-md w-full p-8 shadow-2xl relative animate-fade-in text-center">
-                <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 focus:outline-none">
+            </div>
+        </section>
+
+    </main>
+
+    <div id="resourceModal" class="hidden fixed inset-0 z-[100] bg-navy-900/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-8 shadow-2xl relative animate-fade-in text-center">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 focus:outline-none">
                 <i class="fas fa-times text-xl"></i>
-                </button>
-                <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
+            </button>
+            <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
                 <i class="fas fa-lock"></i>
-                </div>
-                <h3 class="text-xl font-bold text-navy-900 mb-2">Access Restricted</h3>
-                <p id="modalMessage" class="text-gray-600 mb-6 text-sm leading-relaxed"></p>
-                <button onclick="closeModal()" class="w-full py-3 bg-gray-100 text-gray-800 font-bold rounded-xl hover:bg-gray-200 transition-colors">
+            </div>
+            <h3 class="text-xl font-bold text-navy-900 mb-2">Access Restricted</h3>
+            <p id="modalMessage" class="text-gray-600 mb-6 text-sm leading-relaxed"></p>
+            <button onclick="closeModal()" class="w-full py-3 bg-gray-100 text-gray-800 font-bold rounded-xl hover:bg-gray-200 transition-colors">
                 Close
-              </button>
-                </div>
-                </div>
-                
-                <script>
-                document.addEventListener('DOMContentLoaded', () => {
-                  const sections = document.querySelectorAll('.content-section');
-                  const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
-                  const navLinkBtns = document.querySelectorAll('.nav-link-btn'); 
-                  
-                  // Tab Switching Logic
-                  function switchTab(targetId) {
-                    sections.forEach(section => {
-                      section.classList.add('hidden');
-                      section.classList.remove('animate-fade-in');
-                      void section.offsetWidth; 
-                    });
-                    
-                    const targetSection = document.getElementById(targetId);
-                    if (targetSection) {
-                      targetSection.classList.remove('hidden');
-                      targetSection.classList.add('animate-fade-in');
-                      window.scrollTo(0, 0); 
-                    }
-                    
-                    document.querySelectorAll('.nav-link').forEach(link => {
-                      if (link.dataset.target === targetId) {
+            </button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.content-section');
+            const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+            const navLinkBtns = document.querySelectorAll('.nav-link-btn'); 
+            
+            // Tab Switching Logic
+            function switchTab(targetId) {
+                sections.forEach(section => {
+                    section.classList.add('hidden');
+                    section.classList.remove('animate-fade-in');
+                    void section.offsetWidth; 
+                });
+
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.classList.remove('hidden');
+                    targetSection.classList.add('animate-fade-in');
+                    window.scrollTo(0, 0); 
+                }
+
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    if (link.dataset.target === targetId) {
                         if(targetId === 'contact') {
-                          link.classList.remove('bg-navy-900');
-                          link.classList.add('bg-blue-700'); 
+                           link.classList.remove('bg-navy-900');
+                           link.classList.add('bg-blue-700'); 
                         } else {
-                          link.classList.add('text-blue-600', 'bg-blue-50');
-                          link.classList.remove('text-gray-600', 'hover:bg-gray-100');
+                            link.classList.add('text-blue-600', 'bg-blue-50');
+                            link.classList.remove('text-gray-600', 'hover:bg-gray-100');
                         }
-                      } else {
-                        if(link.dataset.target === 'contact') {
-                          link.classList.add('bg-navy-900');
-                          link.classList.remove('bg-blue-700');
-                        } else {
-                          link.classList.remove('text-blue-600', 'bg-blue-50');
-                          link.classList.add('text-gray-600', 'hover:bg-gray-100');
-                        }
-                      }
-                    });
-                    
-                    document.querySelectorAll('.mobile-nav-link').forEach(link => {
-                      if (link.dataset.target === targetId) {
-                        if(targetId === 'contact') {
-                          link.classList.remove('bg-navy-900');
-                          link.classList.add('bg-blue-700');
-                        } else {
-                          link.classList.add('text-blue-600', 'bg-blue-50');
-                          link.classList.remove('text-gray-700', 'hover:bg-gray-50');
-                        }
-                      } else {
-                        if(link.dataset.target === 'contact') {
-                          link.classList.add('bg-navy-900');
-                          link.classList.remove('bg-blue-700');
-                        } else {
-                          link.classList.remove('text-blue-600', 'bg-blue-50');
-                          link.classList.add('text-gray-700', 'hover:bg-gray-50');
-                        }
-                      }
-                    });
-                  }
-                  
-                  const allTriggerElements = [...navLinks, ...navLinkBtns];
-                  allTriggerElements.forEach(el => {
-                    el.addEventListener('click', (e) => {
-                      const target = el.dataset.target;
-                      if(target) {
-                        switchTab(target);
-                      }
-                    });
-                  });
-                  
-                  // Mobile Menu
-                  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-                  const mobileMenu = document.getElementById('mobile-menu');
-                  
-                  mobileMenuBtn.addEventListener('click', () => {
-                    mobileMenu.classList.toggle('hidden');
-                    const icon = mobileMenuBtn.querySelector('i');
-                    if (mobileMenu.classList.contains('hidden')) {
-                      icon.classList.remove('fa-times');
-                      icon.classList.add('fa-bars');
                     } else {
-                      icon.classList.remove('fa-bars');
-                      icon.classList.add('fa-times');
-                    }
-                  });
-                  
-                  document.querySelectorAll('.mobile-nav-link').forEach(link => {
-                    link.addEventListener('click', () => {
-                      mobileMenu.classList.add('hidden');
-                      const icon = mobileMenuBtn.querySelector('i');
-                      icon.classList.remove('fa-times');
-                      icon.classList.add('fa-bars');
-                    });
-                  });
-                  
-                  // Accordion Logic
-                  const accordionHeaders = document.querySelectorAll('.accordion-header');
-                  accordionHeaders.forEach(header => {
-                    header.addEventListener('click', () => {
-                      const content = header.nextElementSibling;
-                      const icon = header.querySelector('.accordion-icon');
-                      const isExpanded = header.getAttribute('aria-expanded') === 'true';
-                      
-                      document.querySelectorAll('.accordion-header').forEach(h => {
-                        if (h !== header) {
-                          h.setAttribute('aria-expanded', 'false');
-                          h.nextElementSibling.classList.remove('max-h-[2000px]');
-                          h.nextElementSibling.classList.add('max-h-0');
-                          h.querySelector('.accordion-icon').classList.remove('rotate-180');
+                        if(link.dataset.target === 'contact') {
+                            link.classList.add('bg-navy-900');
+                            link.classList.remove('bg-blue-700');
+                        } else {
+                            link.classList.remove('text-blue-600', 'bg-blue-50');
+                            link.classList.add('text-gray-600', 'hover:bg-gray-100');
                         }
-                      });
-                      
-                      if (!isExpanded) {
+                    }
+                });
+
+                document.querySelectorAll('.mobile-nav-link').forEach(link => {
+                     if (link.dataset.target === targetId) {
+                         if(targetId === 'contact') {
+                            link.classList.remove('bg-navy-900');
+                            link.classList.add('bg-blue-700');
+                         } else {
+                            link.classList.add('text-blue-600', 'bg-blue-50');
+                            link.classList.remove('text-gray-700', 'hover:bg-gray-50');
+                         }
+                     } else {
+                         if(link.dataset.target === 'contact') {
+                            link.classList.add('bg-navy-900');
+                            link.classList.remove('bg-blue-700');
+                         } else {
+                            link.classList.remove('text-blue-600', 'bg-blue-50');
+                            link.classList.add('text-gray-700', 'hover:bg-gray-50');
+                         }
+                     }
+                });
+            }
+
+            const allTriggerElements = [...navLinks, ...navLinkBtns];
+            allTriggerElements.forEach(el => {
+                el.addEventListener('click', (e) => {
+                    const target = el.dataset.target;
+                    if(target) {
+                        switchTab(target);
+                    }
+                });
+            });
+
+            // Mobile Menu
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                const icon = mobileMenuBtn.querySelector('i');
+                if (mobileMenu.classList.contains('hidden')) {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                } else {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                }
+            });
+
+            document.querySelectorAll('.mobile-nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                });
+            });
+
+            // Accordion Logic
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const content = header.nextElementSibling;
+                    const icon = header.querySelector('.accordion-icon');
+                    const isExpanded = header.getAttribute('aria-expanded') === 'true';
+
+                    document.querySelectorAll('.accordion-header').forEach(h => {
+                        if (h !== header) {
+                            h.setAttribute('aria-expanded', 'false');
+                            h.nextElementSibling.classList.remove('max-h-[2000px]');
+                            h.nextElementSibling.classList.add('max-h-0');
+                            h.querySelector('.accordion-icon').classList.remove('rotate-180');
+                        }
+                    });
+
+                    if (!isExpanded) {
                         header.setAttribute('aria-expanded', 'true');
                         content.classList.remove('max-h-0');
                         content.classList.add('max-h-[2000px]');
                         icon.classList.add('rotate-180');
-                      } else {
+                    } else {
                         header.setAttribute('aria-expanded', 'false');
                         content.classList.remove('max-h-[2000px]');
                         content.classList.add('max-h-0');
                         icon.classList.remove('rotate-180');
-                      }
-                    });
-                  });
-                  
-                  switchTab('home');
-                  
-                  const homeBgInput = document.getElementById('homeBgInput');
-                  const homeBgImage = document.getElementById('homeBgImage');
-                  
-                  const savedHomeBg = localStorage.getItem('homeBackgroundImage');
-                  if (savedHomeBg) {
-                    homeBgImage.src = savedHomeBg;
-                  }
-                  
-                  homeBgInput.addEventListener('change', function(e) {
-                    const file = e.target.files[0];
-                    if (file) {
-                      const reader = new FileReader();
-                      reader.onload = function(event) {
+                    }
+                });
+            });
+
+            switchTab('home');
+
+            const homeBgInput = document.getElementById('homeBgInput');
+            const homeBgImage = document.getElementById('homeBgImage');
+            
+            const savedHomeBg = localStorage.getItem('homeBackgroundImage');
+            if (savedHomeBg) {
+                homeBgImage.src = savedHomeBg;
+            }
+
+            homeBgInput.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(event) {
                         const base64String = event.target.result;
                         homeBgImage.src = base64String;
                         try {
-                          localStorage.setItem('homeBackgroundImage', base64String);
+                            localStorage.setItem('homeBackgroundImage', base64String);
                         } catch (err) {
-                          console.warn("Could not save home background to localStorage.", err);
+                            console.warn("Could not save home background to localStorage.", err);
                         }
-                      };
-                      reader.readAsDataURL(file);
-                    }
-                  });
-                  
-                  const profilePicInput = document.getElementById('profilePicInput');
-                  const profileImage = document.getElementById('profileImage');
-                  
-                  const savedImage = localStorage.getItem('userProfileImage');
-                  if (savedImage) {
-                    profileImage.src = savedImage;
-                  }
-                  
-                  profilePicInput.addEventListener('change', function(e) {
-                    const file = e.target.files[0];
-                    if (file) {
-                      const reader = new FileReader();
-                      reader.onload = function(event) {
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            const profilePicInput = document.getElementById('profilePicInput');
+            const profileImage = document.getElementById('profileImage');
+            
+            const savedImage = localStorage.getItem('userProfileImage');
+            if (savedImage) {
+                profileImage.src = savedImage;
+            }
+
+            profilePicInput.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(event) {
                         const base64String = event.target.result;
                         profileImage.src = base64String;
                         try {
-                          localStorage.setItem('userProfileImage', base64String);
+                            localStorage.setItem('userProfileImage', base64String);
                         } catch (err) {
-                          console.warn("Could not save image to localStorage.", err);
+                            console.warn("Could not save image to localStorage.", err);
                         }
-                      };
-                      reader.readAsDataURL(file);
-                    }
-                  });
-                  
-                  const cvInput = document.getElementById('cvInput');
-                  const cvDownloadBtn = document.getElementById('cvDownloadBtn');
-                  const cvStatusText = document.getElementById('cvStatusText');
-                  
-                  const savedCV = localStorage.getItem('userCVData');
-                  const savedCVName = localStorage.getItem('userCVName');
-                  if (savedCV && savedCVName) {
-                    cvDownloadBtn.href = savedCV;
-                    cvDownloadBtn.download = savedCVName;
-                    cvStatusText.innerHTML = `<i class="fas fa-check-circle"></i> Local CV active: ${savedCVName}`;
-                    cvStatusText.classList.remove('hidden');
-                  }
-                  
-                  cvInput.addEventListener('change', function(e) {
-                    const file = e.target.files[0];
-                    if (file) {
-                      const reader = new FileReader();
-                      reader.onload = function(event) {
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            const cvInput = document.getElementById('cvInput');
+            const cvDownloadBtn = document.getElementById('cvDownloadBtn');
+            const cvStatusText = document.getElementById('cvStatusText');
+            
+            const savedCV = localStorage.getItem('userCVData');
+            const savedCVName = localStorage.getItem('userCVName');
+            if (savedCV && savedCVName) {
+                cvDownloadBtn.href = savedCV;
+                cvDownloadBtn.download = savedCVName;
+                cvStatusText.innerHTML = `<i class="fas fa-check-circle"></i> Local CV active: ${savedCVName}`;
+                cvStatusText.classList.remove('hidden');
+            }
+
+            cvInput.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(event) {
                         const base64String = event.target.result;
                         cvDownloadBtn.href = base64String;
                         cvDownloadBtn.download = file.name;
@@ -946,79 +950,79 @@
                         cvStatusText.classList.remove('hidden');
                         
                         try {
-                          localStorage.setItem('userCVData', base64String);
-                          localStorage.setItem('userCVName', file.name);
+                            localStorage.setItem('userCVData', base64String);
+                            localStorage.setItem('userCVName', file.name);
                         } catch (err) {
-                          console.warn("Could not save CV to localStorage.", err);
+                            console.warn("Could not save CV to localStorage.", err);
                         }
-                      };
-                      reader.readAsDataURL(file);
-                    }
-                  });
-                  
-                  const themes = [1, 2, 3, 4, 5];
-                  themes.forEach(themeNum => {
-                    const input = document.getElementById(`theme${themeNum}Input`);
-                    const img = document.getElementById(`theme${themeNum}Image`);
-                    const storageKey = `urbanTheme${themeNum}Img`;
-                    
-                    if(input && img) {
-                      const savedImg = localStorage.getItem(storageKey);
-                      if (savedImg) {
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            const themes = [1, 2, 3, 4, 5];
+            themes.forEach(themeNum => {
+                const input = document.getElementById(`theme${themeNum}Input`);
+                const img = document.getElementById(`theme${themeNum}Image`);
+                const storageKey = `urbanTheme${themeNum}Img`;
+
+                if(input && img) {
+                    const savedImg = localStorage.getItem(storageKey);
+                    if (savedImg) {
                         img.src = savedImg;
-                      }
-                      
-                      input.addEventListener('change', function(e) {
+                    }
+
+                    input.addEventListener('change', function(e) {
                         const file = e.target.files[0];
                         if (file) {
-                          const reader = new FileReader();
-                          reader.onload = function(event) {
-                            const base64String = event.target.result;
-                            img.src = base64String;
-                            try {
-                              localStorage.setItem(storageKey, base64String);
-                            } catch (err) {
-                              console.warn(`Could not save theme ${themeNum} image.`, err);
-                            }
-                          };
-                          reader.readAsDataURL(file);
+                            const reader = new FileReader();
+                            reader.onload = function(event) {
+                                const base64String = event.target.result;
+                                img.src = base64String;
+                                try {
+                                    localStorage.setItem(storageKey, base64String);
+                                } catch (err) {
+                                    console.warn(`Could not save theme ${themeNum} image.`, err);
+                                }
+                            };
+                            reader.readAsDataURL(file);
                         }
-                      });
-                    }
-                  });
-                });
-              
-              // Contact Form Submission Mock
-              function handleFormSubmit(event) {
-                event.preventDefault();
-                const btn = document.getElementById('submitBtn');
-                const msg = document.getElementById('formMessage');
-                
-                const originalContent = btn.innerHTML;
-                btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-                btn.classList.add('opacity-75', 'cursor-not-allowed');
+                    });
+                }
+            });
+        });
+
+        // Contact Form Submission Mock
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            const msg = document.getElementById('formMessage');
+            
+            const originalContent = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            btn.classList.add('opacity-75', 'cursor-not-allowed');
+            
+            setTimeout(() => {
+                btn.innerHTML = originalContent;
+                btn.classList.remove('opacity-75', 'cursor-not-allowed');
+                msg.classList.remove('hidden');
+                event.target.reset();
                 
                 setTimeout(() => {
-                  btn.innerHTML = originalContent;
-                  btn.classList.remove('opacity-75', 'cursor-not-allowed');
-                  msg.classList.remove('hidden');
-                  event.target.reset();
-                  
-                  setTimeout(() => {
                     msg.classList.add('hidden');
-                  }, 4000);
-                }, 1000);
-              }
-              
-              // Modal Controls
-              function showModal(message) {
-                document.getElementById('modalMessage').innerText = message;
-                document.getElementById('resourceModal').classList.remove('hidden');
-              }
-              
-              function closeModal() {
-                document.getElementById('resourceModal').classList.add('hidden');
-              }
-              </script>
-                </body>
-                </html>
+                }, 4000);
+            }, 1000);
+        }
+
+        // Modal Controls
+        function showModal(message) {
+            document.getElementById('modalMessage').innerText = message;
+            document.getElementById('resourceModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('resourceModal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
